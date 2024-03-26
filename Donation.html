@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Donation</title>
+        <style>
+            .color {
+                background:orange;
+                color:white;
+                width:1527px;
+                height:40px;
+                text-align: center;
+            }
+            .into{
+                background: orange;
+                width:1527px;
+                height:20px;
+                color:white;
+
+            }
+            .col{
+                color:red;
+            }
+            .size{
+                margin-left:730px;
+                width:100px;
+                height:100px;
+            }
+            .button {
+            background:green;
+            color:white;
+        }
+        .red {
+            background: red;
+        }
+        .term {
+            color: blue;
+            font-weight: bold;
+        }
+        .square-button {
+            width:30px;
+            height:30px;
+            cursor: pointer;
+            color: white;
+        }
+        .square-button:hover {
+            background-color: #45a049;
+        }
+        </style>
+    </head>
+    <body>
+        <h1 class="color">DONATIONS</h1>
+        <div class="into"><marquee><b class="col">Note:</b>Donation to <b class="col">SRI AYODHYA TRUST</b> is eligible for tax exemption ONLY in INDIA</marquee></div><br><br>
+        <img class="size" src="https://shrikashivishwanath.org/frontend/images/donation.png"><br><br>
+        <form>
+            <table align="center" border="6" bgcolor="orange">
+                <td colspan="2" align="center"><b>ADD YOUR HANDS</td>
+                <tr><td>Donation For</td><td><input type="text" placeholder="Annakshetra"></td></tr>
+                <tr><td>Mobile Number</td><td><input type="number" Placeholder="Mobile number"></td></tr>
+                <tr><td>E-Mail</td><td><input type="email" placeholder="email"></td></tr>
+                <tr><td>Pan Number</td><td><input type="text/numbers" placeholder="Pan number"></td></tr>
+                <tr><td>Zip Postal Code</td><td><input type="text/Numbers" placeholder="postal code"></td></tr>
+                <tr><td>Name</td><td><input type="text" placeholder="Name"></td></tr>
+                <tr><td>Donation Date</td><td><input type="text" placeholder="Date of Donation"></td></tr>
+                <tr><td>Donation Amount</td><td><input type="number" placeholder="Amount you paid"></td></tr>
+                <tr><td>Address</td><td><input type="text/number" placeholder="Address"></td></tr>
+                <tr><td>Purpose of Donation</td><td><input type="reason" placeholder="Reason"></td></tr>
+                <tr><td colspan="2"><button class="square-button" onclick="activateButton()"></button> I have read the <b class="term">Terms and Conditions</b>and hereby agree to the same </td></tr>
+                <script>
+                    function activateButton() {
+                        alert("Button activated!");
+                    }
+                </script>
+                <tr><td colspan="2" align="2"><button class="button"type="submit">Proceed to Donate</button><input type="reset" class="red"></td></tr>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,183 @@
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Naukri</title>
+        <style>
+            .body {
+                background-color:white;
+            }
+        .header {
+            margin:0%;
+            padding:0%;
+            background:whitesmoke;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .navbar ul {
+            list-style:none;
+            background:whitesmoke;
+            padding:0;
+            margin:0;
+            vertical-align: middle;
+            
+        }
+        .navbar li {
+            display: inline-block;
+        }
+        .navbar a{
+            text-decoration:none;
+            color:black;
+            width:100px;
+            display:block;
+            padding:28px 50px;
+            font-weight: bold;
+        }
+        .shift {
+            text-align:right;
+            padding:20px 80px;
+        }
+        #search-form {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .barsearch {
+            padding:10px;
+            width:700px;
+            
+        }
+
+        .search-button {
+            padding: 10px;
+            border-radius:10px;
+            background-color:Blue;
+            color:white;
+            width:100px;
+            font-size: medium;
+        }
+        .middle {
+            margin-top:120px;
+        }
+        .search-button:hover {
+            background-color:rgb(238, 130, 238);
+        }
+        .shiva {
+            text-decoration: none;
+            color: Blue;
+            width:10px;
+            height:10px;
+        }
+        .maha {
+            text-decoration: none;
+            color:rgb(148, 237, 15);
+            font-weight: bolder;
+            font-size:medium;
+        }
+        .maha1 {
+            text-decoration: none;
+            color:red;
+            font-weight: bolder;
+            font-size:medium;
+        }
+        .maha2 {
+            text-decoration: none;
+            color:violet;
+            font-weight: bolder;
+            font-size:medium;
+        }
+        .maha3 {
+            text-decoration: none;
+            color:paleturquoise;
+            font-weight: bolder;
+            font-size:medium;
+        }
+        .maha4 {
+            text-decoration: none;
+            color:gold;
+            font-weight: bolder;
+            font-size:medium;
+        }
+        .maha5 {
+            text-decoration: none;
+            color:skyblue;
+            font-weight: bolder;
+            font-size:medium;
+        }
+        .maha6 {
+            text-decoration: none;
+            color:indianred;
+            font-weight: bolder;
+            font-size:medium;
+        }
+        .maha7 {
+            text-decoration: none;
+            color:orange;
+            font-weight: bolder;
+            font-size:medium;
+        }
+        .maha8 {
+            text-decoration: none;
+            color:black;
+            font-weight: bolder;
+            font-size:medium;
+        }
+        .maha9 {
+            text-decoration: none;
+            color:royalblue;
+            font-weight: bolder;
+            font-size:medium;
+        }
+        .maha10 {
+            text-decoration: none;
+            color:lime;
+            font-weight: bolder;
+            font-size:medium;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <ul>
+                    <li><a class="logo"href="#"><img src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png"></a></li>
+                    <li> <a href="https://www.naukri.com/mnjuser/recommendedjobs">Jobs</a></li>
+                    <li> <a href="https://www.naukri.com/companies-hiring-in-india?src=gnbCompanies_homepage_srch">Companies</a></li>
+                    <li><a href="https://www.naukri.com/companies-hiring-in-india?src=gnbCompanies_homepage_srch">Services</a></li>
+                    <li><a href=https://login.naukri.com/nLogin/Login.php >Login</a></li>
+                    <li><a href="https://www.naukri.com/registration/createAccount?othersrcp=22636" class="front">Register</a></li>
+                    <li><details><summary>For Employers</summary><p>Buy Online</p><p>Naukri Hiring suite</p><p>Employer Login</p></details></li>
+                </ul>
+            </div>
+        </header>    
+        <h1 align="center" class="aligned">Find your dream job now</h1>
+        <h3 align="center" class="aligned1">5 lakh+ job for you to explore</h3>
+        
+        <div id="search-form">
+            <form class="middle">
+                <input type="text" class="barsearch" placeholder="Enter skills /Designation / Companies               |             Select experience           |               Enter Location">
+            </form>
+            <a href="https://www.naukri.com/softwareroles-jobs?k=softwareroles"><input type="submit" class="search-button" value="Search"></a>
+        </div><br>
+        <center>
+            <h1>
+                New to Naukri ?
+            </h1>
+            <p>One click register using naukri profile.</p>
+            <p>Get relevant job recommendations.</p>
+            <p>Showcase profile to top companies and consultants.</p>
+            <p>Know application status on applied jobs.</p>
+            <a class="shiva" href="https://www.naukri.com/registration/createAccount" style="border:1px solid blue">Register for free</h3>
+        </center></a><hr><hr>
+       <marquee> <a class="maha" href="https://www.naukri.com/remote-jobs?src=discovery_trendingWdgt_homepage_srch"target="blank">||REMOTE||</a>
+        <a class="maha1" href="https://www.naukri.com/mnc-jobs?src=discovery_trendingWdgt_homepage_srch" target="blank">||MNC||</a>
+        <a class="maha2" href="https://www.naukri.com/startup-jobs?src=discovery_trendingWdgt_homepage_srch" target="blank">||SALES||</a>
+        <a class="maha3" href="https://www.naukri.com/hr-jobs?src=discovery_trendingWdgt_homepage_srch" target="blank">||ENGINEERING||</a>
+        <a class="maha4" href="https://www.naukri.com/bfsi-jobs?src=discovery_trendingWdgt_homepage_srch"target="blank">||BANKING & FINANCE</a>
+        <a class="maha5" href="https://www.naukri.com/startup-jobs?src=discovery_trendingWdgt_homepage_srch" target="blank">||START UP||</a>
+        <a class="maha6" href="https://www.naukri.com/hr-jobs?src=discovery_trendingWdgt_homepage_srch" target="Blank">||HR||</a>
+        <a class="maha7" href="https://www.naukri.com/fresher-jobs?src=discovery_trendingWdgt_homepage_srch"target="Blank">||FRESHER||</a>
+        <a class="maha8" href="https://www.naukri.com/marketing-jobs?src=discovery_trendingWdgt_homepage_srch" target="blank">||MARKETING||</a>
+        <a class="maha9"  href="https://www.naukri.com/project-management-jobs?src=discovery_trendingWdgt_homepage_srch" target="Blank">||PROJECTV MGMT||</a>
+        <a class="maha10"  href="https://www.naukri.com/it-jobs?src=discovery_trendingWdgt_homepage_srch">||SOFTWARE & IT||</a></marquee><hr><hr>
+    </body>
+</html>
